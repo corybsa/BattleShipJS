@@ -1,0 +1,17 @@
+VERSION 1:
+Game board is generated and ships placed randomly.
+Player can attack squares and the game will detect hits and misses,
+and tally up a score, shown when the player sinks all the ships.
+
+VERSION 2:
+Player can now place ships at will.
+Placed ships are shown to the player.
+
+VERSION 2.5:
+Second gameboard for the AI player has been added.
+AI player has been added.
+Known bugs:
+In certain situations the AI player will get stuck in an infinite loop.
+
+Features from version 2 will not be implemented in this version until
+the AI is fully functional.

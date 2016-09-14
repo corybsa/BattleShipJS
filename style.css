@@ -1,0 +1,119 @@
+body {
+	font-family: sans-serif;
+	font-size: 12pt;
+}
+
+h3 {
+	display: block;
+}
+
+#player1 {
+	width: 366px;
+	float: left;
+}
+
+#space {
+	width: 50px;
+	float: left;
+}
+
+#player2 {
+	width: 366px;
+	float: left;
+}
+
+#board0 {
+	cursor: default !important;
+}
+
+#board0, #board1 {
+	cursor: crosshair;
+	border-collapse: collapse;
+	background-image: url("images/water.png");
+	background-position: -100px -100px;
+	color: white;
+	float: left;
+}
+
+#board0 td, #board1 td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	width: 30px;
+	height: 30px;
+}
+
+#top0 td, #top1 td {
+	cursor: default;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+
+	width: 30px;
+	height: 28px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#top0 tr, #top1 tr {
+	background-color: rgba(200, 200, 200, 0.8);
+}
+
+#side0 td, #side1 td{
+	cursor: default;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 3px;
+	color: black;
+	background-color: rgba(200, 200, 200, 0.8);
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 27px;
+	height: 25px;
+}
+
+#side0 th, #side1 th {
+	height: 30px;
+}
+
+#side0, #side1 {
+	float: left;
+}
+
+.highlight {
+	background-color: rgba(255, 255, 0, 0.4);
+}
+
+.miss {
+	background-color: rgba(255, 0, 0, 0.4);
+}
+
+.hit {
+	background-color: rgba(0, 255, 0, 0.4);
+}
+
+.target {
+	background-color: rgba(100, 100, 100, 0.8);
+}
+
+.side {
+	background-color: rgba(255, 0, 0, 1);
+}
+
+.top {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+
+.center {
+	text-align: center;
+}
+
+.bottom {
+	float: left;
+	clear: both;
+}
+
+#output0, #output1 {
+	color: red;
+	text-align: right;
+	clear: both;
+}
